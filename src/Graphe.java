@@ -207,15 +207,21 @@ public class Graphe<Noeud,Edge> extends SimpleWeightedGraph {
 	
 	public void placerDonnee2Utils(Utilisateurs util1,Utilisateurs util2,Donnees don) {
 		//on cherche le chemin le plus court entre les deux noeuds accessibles des utilisateurs
-		ArrayList arr = (ArrayList) this.cheminLePlusCourt(this.getNoeudById(util1.getNoeudAccessible()),this.getNoeudById(util2.getNoeudAccessible()));
+		ArrayList<Edge> arr = (ArrayList) this.cheminLePlusCourt(this.getNoeudById(util1.getNoeudAccessible()),this.getNoeudById(util2.getNoeudAccessible()));
 		//si il y a un nombre pair d'arc dans le chemin entre les noeuds
-		if(arr.size() % 2 == 0) {
 			//on va recuperer le noeud qui se trouve a la moitie du chemin entre les deux noeuds
 			int indice = arr.size()/2;
-			
-			System.out.println(arr.get(indice).getClass());
-				
-		}
+			String noeud = arr.get(indice).toString().charAt(1)+"";
+			int idNoeud = Integer.parseInt(noeud);
+			if(this.getNoeudById(idNoeud).getCapacite() >= don.getTaille()) {
+				this.getNoeudById(idNoeud).ajouterDonnée(don);
+			}else {
+				noeud = arr.get(indice).toString().charAt(5)+"";
+				idNoeud = Integer.parseInt(noeud);
+				if(this.getNoeudById(idNoeud).getCapacite() >= don.getTaille()) {
+					this.getNoeudById(idNoeud).ajouterDonnée(don);
+				}
+			}
 	}
 	
 	

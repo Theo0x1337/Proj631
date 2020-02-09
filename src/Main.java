@@ -124,8 +124,10 @@ public class Main {
 		g2.setEdgeWeight(edge4, 1);
 				
 		System.out.println("");
-		g2.affichageNoeudGraphe();
 		g2.placerDonnee2Utils(util10, util11, don2);
+		g2.affichageNoeudGraphe();
+
+			
 	}
 	
 }
