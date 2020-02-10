@@ -12,5 +12,21 @@ Pour ce faire j'ai tout d'abord tenté de réaliser le projet "à la main" sans 
 
 Pour tester mon programme il sera nécessaire d'ajouter JGraphT dans vos librairies externes, voici un thread stackoverflow expliquant comment procéder pour le faire : https://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse
 
-Vous trouverez le .jar de JGraphT dans le repertoire 
+Vous trouverez le .jar de JGraphT dans le repertoire JGraphT
+
+Voici également un lien vers la doc de cette librairie : https://jgrapht.org/guide/UserOverview
+
+## Utilisation du programme 
+
+Dans ce dépôt vous trouverez la javadoc associé aux différentes classes du projet, pour plus de précisions sur les méthodes ainsi que l'utilisation des classes je vous conseille de lire la javadoc disponibles ici : 
+
+
+### Fichier Main : 
+
+Pour tester le projet, vous trouverez un fichier main.java dans le repertoire SRC. Dans ce fichier, il y a un test du placement des données pour un utilisateur ainsi qu'un test pour la placement d'une donnée interessant 2 utilisateurs.
+
+Vous pouvez modifier le fichier main pour tester le programme a votre guise, en créant des graphes et en testant d'inserer des données dans celui-ci. 
+
+
+
 
