@@ -33,7 +33,7 @@ Voici également un lien vers la doc de cette librairie : https://jgrapht.org/gu
 
 ## Utilisation du programme 
 
-Dans ce dépôt vous trouverez la javadoc associé aux différentes classes du projet, pour plus de précisions sur les méthodes ainsi que l'utilisation des classes je vous conseille de lire la javadoc disponible depuis le fichier index.html dans le repertoire DOC (il faut cloner le dépôt puis ouvrir le fichier index.html avec un navigateur web, il ne faut pas l'ouvrir depuis le dépôt github).
+Dans ce dépôt vous trouverez la javadoc associé aux différentes classes du projet, pour plus de précisions sur les méthodes ainsi que l'utilisation des classes je vous conseille de lire la javadoc disponible depuis le fichier index.html dans le repertoire **doc** (il faut cloner le dépôt puis ouvrir le fichier **index.html** avec un navigateur web, il ne faut pas l'ouvrir depuis le dépôt github).
 
 
 ### Fichier Main : 
