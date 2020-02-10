@@ -2,7 +2,7 @@
 # Table des matières
 
 * [Description du projet](https://github.com/TheoBernardin/Proj631#proj631)
-* [Diagramme UML du projet](https://github.com/TheoBernardin/Proj631#utilisation-du-programme)
+* [Diagramme UML du projet](https://github.com/TheoBernardin/Proj631#diagramme-uml-du-projet)
 * [Ajouter la bibliothèque JGraphT avec eclipse](https://github.com/TheoBernardin/Proj631#ajout-de-la-bibliothèque-jgrapht-sous-eclipse)
 * [Utilisation du programme](https://github.com/TheoBernardin/Proj631#utilisation-du-programme)
 * [Fichier Main](https://github.com/TheoBernardin/Proj631#fichier-main-)
@@ -20,7 +20,7 @@ Pour ce faire j'ai tout d'abord tenté de réaliser le projet "à la main" sans 
 
 ## Diagramme UML du projet
 
-![](img/diagUML.png)
+![](img/diagUML.jpg)
 
 
 ### Ajout de la bibliothèque JGraphT sous eclipse
