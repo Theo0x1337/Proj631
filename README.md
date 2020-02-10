@@ -1,12 +1,11 @@
 
 # Table des matières
 
-* [Description du projet](https://github.com/TheoBernardin/Proj631#proj631) 
+* [Description du projet](https://github.com/TheoBernardin/Proj631#proj631)
+* [Diagramme UML du projet](https://github.com/TheoBernardin/Proj631#utilisation-du-programme)
 * [Ajouter la bibliothèque JGraphT avec eclipse](https://github.com/TheoBernardin/Proj631#ajout-de-la-bibliothèque-jgrapht-sous-eclipse)
 * [Utilisation du programme](https://github.com/TheoBernardin/Proj631#utilisation-du-programme)
 * [Fichier Main](https://github.com/TheoBernardin/Proj631#fichier-main-)
-
-
 
 
 # Proj631
@@ -17,6 +16,11 @@ Pour ma part,j'ai choisi de travailler sur le placement de données dans un grap
 noeuds ainsi que des arcs, dans le langage Java. 
 
 Pour ce faire j'ai tout d'abord tenté de réaliser le projet "à la main" sans m'aider d'une librairie implémentant divers algorithmes nécessaires au traitement des graphes. Puis je me suis rendu compte que l'utilisation d'une librairie était nécessaire, et j'ai donc opté pour JGraphT.
+
+
+## Diagramme UML du projet
+
+![](img/diagUML.png)
 
 
 ### Ajout de la bibliothèque JGraphT sous eclipse
