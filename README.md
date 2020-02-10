@@ -1,5 +1,11 @@
+
+# Table des matières
+
 * [Description du projet](https://github.com/TheoBernardin/Proj631#proj631) 
 * [Ajouter la bibliothèque JGraphT avec eclipse](https://github.com/TheoBernardin/Proj631#ajout-de-la-bibliothèque-jgrapht-sous-eclipse)
+* [Utilisation du programme](https://github.com/TheoBernardin/Proj631#utilisation-du-programme)
+* [Fichier Main](https://github.com/TheoBernardin/Proj631#fichier-main-)
+
 
 
 
